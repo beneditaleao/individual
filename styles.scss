@@ -1,0 +1,227 @@
+
+@import "iphone.scss";
+
+#pageloader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* center children content horizontally */
+    align-items: center; /* center children content vertically */
+    z-index: 10000;
+    background: white;
+}
+
+
+.header {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+@font-face {
+  font-family: fonteregular;
+  src: url(fontes/ufonts.com_futura-book.ttf);
+  font-weight: normal;
+
+}
+
+@font-face {
+  font-family: fontebold;
+  src: url(fontes/Roboto-Bold.ttf);
+  font-weight: normal;
+
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#FFFFFF;
+  text-decoration: none;
+  }
+
+a:active{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  transform:scale(1.5);
+
+}
+
+
+body {
+  margin: 0 auto;
+  background-color:black;
+  max-width: 1280px;
+}
+
+h1{
+    font-family: fonteregular;
+    color: white;
+    text-align: center;
+    font-style: 17px;
+    letter-spacing: 7px;
+    margin-top: 200px;
+    font-size: 40px;
+    padding-bottom: 45px;
+  }
+
+
+
+  .sobre{
+    color:white;
+    margin-top: 100px;
+  }
+
+
+
+  .img1{
+    width: 30px;
+    height: 30px;
+    float: right;
+
+  }
+
+  .img2{
+    width: 20px;
+    height: 30px;
+    float: right;
+
+  }
+.img3{
+  width: 40px;
+  height: 40px;
+  float: right;
+
+}
+
+.img4{
+  width: 400px;
+  height: 400px;
+  position: relative;
+  padding-bottom: 100px;
+
+}
+
+
+  p{
+    font-family: fonteregular;
+    color: white;
+    letter-spacing: 0px;
+    font-size: 35px;
+    border: solid 3px white;
+    padding: 15px;
+    transition: background 1s ease-in;
+    background:black;
+
+
+  }
+
+  p:hover{
+    background: darken(white, 20%);
+  }
+
+  .flex-block{
+    width: 20px;
+    height: 20px;
+}
+
+
+.areas{
+  text-align: left;
+  color: black;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  display: inline;
+  margin-top: -200px;
+}
+
+.redes{
+  display: flex;
+  justify-content: flex-star;
+  flex-direction:row-reverse;
+}
+
+h4{
+  text-align: left;
+  line-height: 35px;
+  color: blue;
+  font-family: fontebold;
+  font-weight: bold;
+  font-size: 20px;
+  position:absolute;
+  margin-left: 200px;
+  margin-top: 200px;
+  width: 300px;
+  height: 500px;
+
+
+}
+
+
+h5{
+  color:white;
+  font-family: fonteregular;
+}
+
+h5:hover{
+  text-decoration: line-through;
+}
+
+
+div{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+
+}
+
+
+.img5{
+  height: 220px;
+  height: 420px;
+
+  }
+  .img6{
+    @extend .img5;
+  }
+  .img7{
+    @extend .img5;
+  }
+  .img8{
+    @extend .img5;
+  }
+  .img10{
+    @extend .img5;
+  }
+  .img11{
+    @extend .img5;
+  }
+  .img12{
+    @extend .img5;
+  }
+  .img13{
+    @extend .img5;
+  }
+  .img14{
+    @extend .img5;
+  }
+  .img15{
+    @extend .img5;
+  }
+  .img16{
+    @extend .img5;
+
+}
