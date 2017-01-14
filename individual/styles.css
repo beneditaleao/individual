@@ -1,0 +1,277 @@
+#pageloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  background: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@font-face {
+  font-family: fonteregular;
+  src: url(fontes/ufonts.com_futura-book.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: fontebold;
+  src: url(fontes/Roboto-Bold.ttf);
+  font-weight: normal;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  transform: scale(1.5);
+}
+
+body {
+  margin: 0 auto;
+  background-color: black;
+  max-width: 1280px;
+}
+
+h1 {
+  font-family: fonteregular;
+  color: white;
+  text-align: center;
+  font-style: 17px;
+  letter-spacing: 7px;
+  margin-top: 150px;
+  font-size: 40px;
+  padding-bottom: 45px;
+}
+
+.sobre {
+  color: white;
+  margin-top: 100px;
+}
+
+.img1 {
+  width: 35px;
+  height: 35px;
+  float: right;
+}
+
+.img2 {
+  width: 20px;
+  height: 27px;
+  float: right;
+  padding-right: 12px;
+  padding-left: 6px;
+  margin-top: 5px;
+}
+
+.img3 {
+  width: 35px;
+  height: 40px;
+  float: right;
+
+}
+
+.img4 {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+p {
+  font-family: fonteregular;
+  color: white;
+  letter-spacing: 0px;
+  font-size: 35px;
+  border: solid 3px white;
+  padding: 15px;
+  transition: background 1s ease-in;
+  background: black;
+}
+
+p:hover {
+  background: #cccccc;
+}
+
+.flex-block {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 20px;
+}
+
+.areas {
+  text-align: left;
+  color: black;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  display: inline;
+
+}
+
+.redes {
+  display: flex;
+  justify-content: flex-star;
+  flex-direction: row-reverse;
+
+}
+
+h4 {
+  text-align: left;
+  line-height: 35px;
+  color: blue;
+  font-family: fontebold;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 200px;
+  width: 400px;
+  height: 250px;
+}
+
+h4:hover {
+  background-color: black;
+}
+
+h5 {
+  color: white;
+  font-size: 16px;
+  font-family: fonteregular;
+}
+
+h5:hover {
+  text-decoration: line-through;
+}
+
+h6 {
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+.img5, .img6, .img7, .img8, .img15, .img16, .img01, .img05, .img9, .img10, .img11, .img011, .img12, .img13, .img013, .img14, .img014, .img015, .img0014, .img104 {
+  height: 400px;
+  width: 600px;
+  -webkit-filter: grayscale(100%);
+}
+
+.img5:hover, .img6:hover, .img7:hover, .img8:hover, .img15:hover, .img16:hover, .img01:hover, .img05:hover, .img9:hover, .img10:hover, .img11:hover, .img011:hover, .img12:hover, .img13:hover, .img013:hover, .img14:hover, .img014:hover, .img015:hover, .img0014:hover, .img104:hover {
+
+  -webkit-filter: grayscale(0%);
+  transition: 1s;
+}
+
+
+.img17 {
+  width: 351px;
+ height:496px;;
+  -webkit-filter: grayscale(100%);
+}
+
+.img17:hover {
+  -webkit-filter: grayscale(0%);
+  transition: 1s;
+}
+.img18 {
+  width: 351px;
+ height:496px;;
+  -webkit-filter: grayscale(100%);
+}
+
+.img18:hover {
+  -webkit-filter: grayscale(0%);
+  transition: 1s;
+}
+.img19 {
+  width: 351px;
+ height:496px;;
+  -webkit-filter: grayscale(100%);
+}
+
+.img19:hover {
+  -webkit-filter: grayscale(0%);
+  transition: 1s;
+}
+.img20 {
+  width: 351px;
+ height:496px;;
+  -webkit-filter: grayscale(100%);
+}
+
+.img20:hover {
+  -webkit-filter: grayscale(0%);
+  transition: 1s;
+}
+.img21 {
+  width: 351px;
+ height:496px;;
+  -webkit-filter: grayscale(100%);
+}
+
+.img21:hover {
+  -webkit-filter: grayscale(0%);
+  transition: 1s;
+}
+.img22 {
+  width: 351px;
+ height:496px;;
+  -webkit-filter: grayscale(100%);
+}
+
+.img22:hover {
+  -webkit-filter: grayscale(0%);
+  transition: 1s;
+}
+
+.img24 {
+  width: 351px;
+height:auto;
+  -webkit-filter: grayscale(100%);
+}
+
+.img24:hover {
+  -webkit-filter: grayscale(0%);
+  transition: 1s;
+}
+
+.img23 {
+ width: 351px;
+    height:auto;
+  -webkit-filter: grayscale(100%);
+}
+
+.img23:hover {
+  -webkit-filter: grayscale(0%);
+  transition: 1s;
+}

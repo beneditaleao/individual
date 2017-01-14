@@ -1,0 +1,139 @@
+/*iphone 5*/
+
+@media screen and (min-width:320px) and (max-width: 568px) {
+
+.flex-block{
+  width: 16px;
+  height: 16px;
+  margin-bottom: 20px;
+}
+
+  h1{
+      font-family: fonteregular;
+      color: white;
+      text-align: center;
+      letter-spacing: 5px;
+      margin-top: 200px;
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
+
+
+
+    p{
+      font-family:sans-serif;
+      color: white;
+      letter-spacing: 3px;
+      font-size: 14px;
+      border: solid 2px white;
+      padding: 15px;
+
+
+    }
+
+    h5{
+      margin-left: 15px;
+      font-size: 12px;
+
+    }
+
+
+
+  .img4{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    padding-bottom: 100px;
+
+  }
+  h4{
+    text-align: left;
+    line-height: 10px;
+    color: blue;
+    font-family: fontebold;
+    font-weight: bold;
+    font-size: 8px;
+    position:absolute;
+    margin-left: 100px;
+    margin-top: 130px;
+    width: 80px;
+    height: 250px;
+
+
+  }
+
+  h4:hover{
+    background-color: black;
+  }
+
+  h6{
+    font-family: sans-serif;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .img1 {
+    width: 20px;
+    height: 20px;
+    float: right;
+  }
+
+  .img2 {
+    width: 10px;
+    height: 14px;
+    float: right;
+    padding-right: 12px;
+    padding-left: 6px;
+    margin-bottom: 7px;
+  }
+
+  .img3 {
+    width: 17px;
+    height: 20px;
+    float: right;
+
+  }
+
+
+
+
+}
+
+/*ipad*/
+
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+
+  h1{
+    padding-bottom: 80px;
+  }
+  h5{
+    margin-left: 20px;
+  }
+
+  h4{
+    text-align: left;
+    line-height: 18px;
+    color: blue;
+    font-family: fontebold;
+    font-weight: bold;
+    font-size: 14px;
+    position:absolute;
+    margin-left: 200px;
+    margin-top: 200px;
+    width: 200px;
+    height: 250px;
+
+
+  }
+
+    h4:hover{
+      background-color: black;
+    }
+
+
+}
